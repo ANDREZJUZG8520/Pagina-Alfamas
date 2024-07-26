@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Inter;
+    src: url("fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face {
+    font-family: Abel;
+    src: url("fonts\Abel-Regular.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.cont_nosotros {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  }
+  .texto_nosotros {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    width:100%;
+    height: 80vh; 
+    background-image: url("img/nosotros/img_nosotros_inicio.png"); /* Ruta de la imagen personalizada */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .texto_nosotros p {
+    width: 60%;
+    text-align: center;
+    font-family: Inter;
+    font-size: 3.5vh;
+    font-weight: light;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 4vh;
+  }
+  .texto_nosotros h2{
+    text-align: center;
+    font-family: Inter;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 3vh;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .button_nosotros{
+    padding: 10px 20px;
+    background-color:#68CBF5;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #464646;
+    font-weight: 500;
+    font-size: 3vh;
+    width: 13%;
+  }
+   .button_nosotros:hover{
+    background-color:#5a5a5a;
+    color: #46A4CA;
+  }
+  .cont_nosotros2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .text-box2 {
+    background-color:white ;
+    width: 33%;
+    color: white;
+    padding: 3vh;
+    margin: 30px;
+
+}
+.text-box2 p{
+    font-family: Inter;
+    font-size: 2vh;
+    font-weight: 400;
+    line-height: 4vh;
+    color: rgba(114, 113, 113, 1);
+}
+.text-box2 h3{
+  font-family: Inter;
+  font-size: 2vh;
+  font-weight: 400;
+  line-height: 4vh;
+  padding: 10px;
+  background-color:rgba(120, 194, 225, 1);
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text-box2 img{
+  width: 100%;
+}

@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Inter;
+    src: url("fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+/*Body*/
+.contenedor-primero-proyectos {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+.imagen-fondo-segundo-div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.contenido_productos {
+  position: absolute;
+  font-family: Inter;
+  width: 40%;
+  left: 10%; 
+  top: 100px;
+  color: rgb(255, 255, 255);
+}
+
+.contenido_productos p{
+  font-size: 4vh;
+}
+.contenido_productos h2{
+  font-size: 4vh;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.5em;
+
+}
+.contenido_productos h1{
+  font-size: 4vh;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.contenido_productos b{
+  font-weight: 500;
+  text-shadow: black 3px 0 30px;
+}
+.contenedor-imagenes {
+  padding-top: 6%;
+  padding-bottom: 4%;
+  width: 90%; 
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-evenly; 
+}
+.contenedor-imagenes img {
+  width: 90%;
+  border-radius: 10px; 
+  margin: 2%; 
+}
+/* Contenedor-texto-productos */
+.contenedor-texto-productos {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  color: rgba(81, 81, 81, 1);
+  font-weight: 400;
+  padding-bottom: 2em;
+  font-size: 2.3vh;
+}
+
+.izquierda, .derecha {
+  padding-right: 4em;
+}
+.izquierda h2, .derecha h2{
+ font-weight: 500;
+}
+.derecha{
+  background: rgba(217, 217, 217, 1);
+  border-radius: 10px; 
+}
+.izquierda p {
+  margin-bottom: 0;
+  line-height: 1.7em;
+}
+.derecha h2 {
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+.derecha .columnas {
+  display: flex;
+}
+
+.derecha .izquierda {
+  width: 60%;
+  padding-left: 2em;
+}
+
+.derecha .derecha {
+  width: 70%;
+  padding-left: 10em;
+  padding-right: 0;
+}
+
+.derecha ul {
+  list-style: none;
+  padding: 0;
+}
+
+.derecha li {
+  margin-bottom: 0px;
+}
+
+.texto-final {
+  margin-top: 6px;
+  padding-left: 3em;
+  padding-bottom: 1em;
+}
+/* Contenedor-imagenes-2-productos */
+.contenedor-imagenes2 {
+  width: 80%; 
+  margin: 0 auto;
+  font-family: Inter;
+  font-size: 0.9em;
+}
+.contenedor-imagenes2 h2{
+  font-family: Inter;
+  font-weight: 500;
+  color: rgba(81, 81, 81, 1);
+  padding-left: 2%;
+  font-size: 4.5vh;
+}
+.contenedor-imagenes2 .titulo {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contenedor-imagenes2 .columnas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contenedor-imagenes2 .item_productos {
+  width: 31%; /* Ajusta el ancho de cada item */
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contenedor-imagenes2 .bloque-azul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(90, 183, 222, 0.5);
+  border-radius: 5px;
+  z-index: -1;
+}
+
+.contenedor-imagenes2 img {
+  width: 100%;
+  display: block;
+  padding-top: 7%;
+}
+
+.contenedor-imagenes2 .item_productos h3 {
+  margin: 10px 0;
+  padding-left: 0.5em;
+  text-align: left;
+  font-weight: 700;
+  color: rgba(81, 81, 81, 1);
+  font-size: 3vh;
+}
+
+.contenedor-imagenes2 .item_productos p {
+  padding: 0 10px 10px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(81, 81, 81, 1);
+  line-height: 1.5em;
+  font-size: 2vh;
+}
+
+
+/*Body*/
+
+/*Footer*/
+
+/*Footer*/
